@@ -22,7 +22,7 @@ body {
   background-image: url(../img/kitten-medium.png);
 }
 
-@media (min-width: 530px) and (max-width: 970px) {
+@media (min-width: 430px) and (max-width: 970px) {
   .contenedorPrincipal {
     width: 100%;
     background-image: url("../img/dawn.png");
@@ -34,11 +34,31 @@ body {
   }
 }
 
-@media (min-width: 530px) and (max-width: 670px) {
+@media (min-width: 430px) and (max-width: 670px) {
   .contenedorKitten {
     width: 50%;
     height: 50%;
     background-image: url("../img/kitten-large.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 429px) {
+  .contenedorPrincipal {
+    width: 100%;
+    background-image: url("../img/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedorKitten {
+    width: 50%;
+    height: 50%;
+    background-image: url("../img/kitten-small.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
