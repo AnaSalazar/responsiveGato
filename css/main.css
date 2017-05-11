@@ -22,7 +22,7 @@ body {
   background-image: url(../img/kitten-medium.png);
 }
 
-@media (min-width: 670px) and (max-width: 970px) {
+@media (max-width: 970px) {
   .contenedorPrincipal {
     width: 100%;
     background-image: url("../img/dawn.png");
